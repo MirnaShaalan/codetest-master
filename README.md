@@ -12,6 +12,7 @@
     cd Frontend
     npm i
     dotnet restore
+    update-database
 ```
 ### Run:
   - Use the debug function in either visual studio or vs code
@@ -26,7 +27,7 @@ The project is a standard dotnet core 5.0 MCV project.
 No libraries are used in the javascript. We utilize Gulp to bundle and compile both the TypeScript and the SCSS.
 
 # Database
-  - We use a mongodb for this project, but feel free to switch if you prefer another option.
+  - We use a SQL Server DataBase, Consider Run Command "update-database" To create it
   - The database is publicly open, and the connectionstring in the appsettings.json is filled in, ready and working.
 
 # Controllers:
